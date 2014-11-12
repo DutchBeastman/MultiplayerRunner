@@ -24,11 +24,13 @@ public class CameraFollow : MonoBehaviour {
 	void Update () {
 		if (cameraFollowX){
 			float tempX = Mathf.SmoothDamp (cameraPosition.position.x, cameraTarget.transform.position.x, ref velocity.x, smoothTime);
-			//Doe cameraPosition.position.x in een variable.
-			cameraPosition.position.x = new Vector3 (tempX , cameraPosition.position.y, cameraPosition.position.z);
+			Vector3 camPosX = new Vector3 (tempX , cameraPosition.position.y, cameraPosition.position.z);
+			cameraPosition.position = camPosX;
 		}
 		if (cameraFollowY) {
-			cameraPosition.position.y = new Vector3 (cameraPosition.position.x,Mathf.SmoothDamp (cameraPosition.position.y, cameraTarget.transform.position.y, ref velocity.y, smoothTime), cameraPosition.position.z);
+			float tempY = Mathf.SmoothDamp (cameraPosition.position.y, cameraTarget.transform.position.y, ref velocity.y, smoothTime);
+			Vector3 camPosY =  new Vector3 (cameraPosition.position.x,tempY, cameraPosition.position.z);
+			cameraPosition.position = camPosY;
 		}
 		if (!cameraFollowX & cameraFollowHeight) {
 			//To Do
