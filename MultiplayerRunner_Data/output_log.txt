@@ -10,7 +10,7 @@ Platform assembly: D:\Unity\Projects\MultiplayerRunner\MultiplayerRunner_Data\Ma
 Loading D:\Unity\Projects\MultiplayerRunner\MultiplayerRunner_Data\Managed\UnityEngine.dll into Unity Child Domain
 Platform assembly: D:\Unity\Projects\MultiplayerRunner\MultiplayerRunner_Data\Managed\Assembly-CSharp.dll (this message is harmless)
 Loading D:\Unity\Projects\MultiplayerRunner\MultiplayerRunner_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
-- Completed reload, in  0.053 seconds
+- Completed reload, in  0.051 seconds
 desktop: 1920x1080 60Hz; virtual: 3840x1080 at -1920,0
 <RI> Initializing input.
 <RI> Input initialized.
@@ -28,4 +28,3 @@ NetworkManager:OnGUI() (at D:\Unity\Projects\MultiplayerRunner\Assets\Resources\
  
 (Filename: D Line: 0)
 
-Waiting for finish

@@ -9,9 +9,12 @@ public class Player : MonoBehaviour {
 	// Update is called once per frame
 	void FixedUpdate () 
 	{
-		PlayerMovement();
+		if (networkView.isMine)
+		{
+			PlayerMovement();
+		}
 	}
-
+	
 	void PlayerMovement()
 	{
 		rigidbody2D.rotation = 0;
