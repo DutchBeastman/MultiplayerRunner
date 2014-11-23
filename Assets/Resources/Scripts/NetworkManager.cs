@@ -43,7 +43,7 @@ public class NetworkManager : MonoBehaviour {
 	}
 	private void SpawnPlayer()
 	{
-		Network.Instantiate(Resources.Load("Prefabs/Player"), new Vector3(0f, 5f, 0f), Quaternion.identity, 0);
+		Network.Instantiate(Resources.Load("Prefabs/Player"), new Vector3(5f, 10f, 0f), Quaternion.identity, 0);
 	}
 	void OnGUI()
 	{

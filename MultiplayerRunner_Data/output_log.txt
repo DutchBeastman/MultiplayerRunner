@@ -28,3 +28,4 @@ NetworkManager:OnGUI() (at D:\Unity\Projects\MultiplayerRunner\Assets\Resources\
  
 (Filename: D Line: 0)
 
+Waiting for finish
