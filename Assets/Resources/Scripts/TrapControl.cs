@@ -6,6 +6,7 @@ public class TrapControl : MonoBehaviour {
 	Vector3 shootingTrapPosition;
 	GameObject CurrentTrap;
 	bool    MovingTrap;
+	public Camera cam;
 	// Use this for initialization
 	void Start () {
 	
@@ -14,7 +15,7 @@ public class TrapControl : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		Debug.Log(MovingTrap);
-		Ray ray = Camera.main.ScreenPointToRay (Input.mousePosition);
+		Ray ray = cam.ScreenPointToRay (Input.mousePosition);
 
 		if(Input.GetMouseButtonDown(0))
 		{
