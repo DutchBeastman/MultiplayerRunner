@@ -47,16 +47,18 @@ public class Player : MonoBehaviour {
 			playerPosX = networkWritePlayerX;
 			playerPosY = networkWritePlayerY;
 		}*/
-		Vector2 syncPosition = Vector2.zero;
+
+		//het error'd op Vector2D
+		Vector3 syncPosition = Vector3.zero;
 		if (stream.isWriting)
 		{
-			syncPosition = rigidbody2D.position;
+			syncPosition = rigidbody.position;
 			stream.Serialize(ref syncPosition);
 		}
 		else
 		{
 			stream.Serialize(ref syncPosition);
-			rigidbody2D.position = syncPosition;
+			rigidbody.position = syncPosition;
 		}
 	}
 }
