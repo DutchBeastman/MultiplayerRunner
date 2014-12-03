@@ -12,6 +12,7 @@ public class Player : MonoBehaviour {
 	// Update is called once per frame
 	void FixedUpdate () 
 	{
+		CodeProfiler.Begin("Player:FixedUpdate");
 		playerPosX = transform.position.x;
 		playerPosY = transform.position.y;
 		if (networkView.isMine)
@@ -19,10 +20,12 @@ public class Player : MonoBehaviour {
 			PlayerMovement();
 		}
 		PlayerMovement();
+		CodeProfiler.End("Player:FixedUpdate");
 	}
 	
 	void PlayerMovement()
 	{
+		CodeProfiler.Begin("Player:PlayerMovement");
 		rigidbody2D.rotation = 0;
 		playerVector = new Vector2(Input.GetAxis("Horizontal"), Input.GetAxis("Jump"));
 		rigidbody2D.AddRelativeForce(playerVector * 1000 *  Time.deltaTime);
@@ -30,6 +33,7 @@ public class Player : MonoBehaviour {
 			rigidbody2D.velocity = new Vector2(Mathf.SmoothDamp(rigidbody2D.velocity.x,0, ref tempVel, smooth),Mathf.SmoothDamp(rigidbody2D.velocity.y,-1, ref tempVel, smooth));
 
 		}
+		CodeProfiler.End("Player:PlayerMovement");
 	}
 	void OnSerializeNetworkView(BitStream stream, NetworkMessageInfo info){
 		/*float networkWritePlayerX = 0;
