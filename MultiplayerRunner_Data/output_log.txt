@@ -2,129 +2,182 @@ Initialize engine version: 4.5.5f1 (7684ad0c5a44)
 GfxDevice: creating device client; threaded=1
 Direct3D:
     Version:  Direct3D 11.0 [level 11.0]
-    Renderer: NVIDIA GeForce GTX 560 Ti   (ID=0x1200)
+    Renderer: NVIDIA NVS 5200M    (ID=0xdfc)
     Vendor:   NVIDIA
     VRAM:     977 MB
 Begin MonoManager ReloadAssembly
-Platform assembly: D:\Unity\Projects\MultiplayerRunner\MultiplayerRunner_Data\Managed\UnityEngine.dll (this message is harmless)
-Loading D:\Unity\Projects\MultiplayerRunner\MultiplayerRunner_Data\Managed\UnityEngine.dll into Unity Child Domain
-Platform assembly: D:\Unity\Projects\MultiplayerRunner\MultiplayerRunner_Data\Managed\Assembly-CSharp.dll (this message is harmless)
-Loading D:\Unity\Projects\MultiplayerRunner\MultiplayerRunner_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
-- Completed reload, in  0.056 seconds
-desktop: 1920x1080 60Hz; virtual: 3840x1080 at -1920,0
+Platform assembly: D:\Unity\MultiplayerRunner\MultiplayerRunner_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading D:\Unity\MultiplayerRunner\MultiplayerRunner_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: D:\Unity\MultiplayerRunner\MultiplayerRunner_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading D:\Unity\MultiplayerRunner\MultiplayerRunner_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+- Completed reload, in  0.051 seconds
+desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
-Profiler is only supported with Pro License
- 
-(Filename: C:/BuildAgent/work/d63dfc6385190b60/Runtime/Profiler/ProfilerConnection.cpp Line: 218)
-
-Connected to master server at 67.225.180.24:23466
- 
-(Filename: C:/BuildAgent/work/d63dfc6385190b60/Runtime/Network/NetworkManager.cpp Line: 2484)
-
-Incoming host list query response from master server.
- 
-(Filename: C:/BuildAgent/work/d63dfc6385190b60/Runtime/Network/NetworkManager.cpp Line: 2484)
-
-Incoming host list query response from master server.
- 
-(Filename: C:/BuildAgent/work/d63dfc6385190b60/Runtime/Network/NetworkManager.cpp Line: 2484)
-
-Incoming host list query response from master server.
- 
-(Filename: C:/BuildAgent/work/d63dfc6385190b60/Runtime/Network/NetworkManager.cpp Line: 2484)
-
-Incoming host list query response from master server.
- 
-(Filename: C:/BuildAgent/work/d63dfc6385190b60/Runtime/Network/NetworkManager.cpp Line: 2484)
-
-Incoming host list query response from master server.
- 
-(Filename: C:/BuildAgent/work/d63dfc6385190b60/Runtime/Network/NetworkManager.cpp Line: 2484)
-
-Incoming host list query response from master server.
- 
-(Filename: C:/BuildAgent/work/d63dfc6385190b60/Runtime/Network/NetworkManager.cpp Line: 2484)
-
-Incoming host list query response from master server.
- 
-(Filename: C:/BuildAgent/work/d63dfc6385190b60/Runtime/Network/NetworkManager.cpp Line: 2484)
-
-Incoming host list query response from master server.
- 
-(Filename: C:/BuildAgent/work/d63dfc6385190b60/Runtime/Network/NetworkManager.cpp Line: 2484)
-
-Incoming host list query response from master server.
- 
-(Filename: C:/BuildAgent/work/d63dfc6385190b60/Runtime/Network/NetworkManager.cpp Line: 2484)
 
 
-
-Avg frame time: 16.9ms, 59 fps 
+Avg frame time: 1ms, 959.2 fps 
 Total     MS/frame  Calls/fra MS/call   Label
 
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-CodeProfiler:Update() (at D:\Unity\Projects\MultiplayerRunner\Assets\Resources\Scripts\CodeProfiler.cs:109)
  
-(Filename: D Line: 0)
-
-Incoming host list query response from master server.
- 
-(Filename: C:/BuildAgent/work/d63dfc6385190b60/Runtime/Network/NetworkManager.cpp Line: 2484)
-
-Incoming host list query response from master server.
- 
-(Filename: C:/BuildAgent/work/d63dfc6385190b60/Runtime/Network/NetworkManager.cpp Line: 2484)
-
-Incoming host list query response from master server.
- 
-(Filename: C:/BuildAgent/work/d63dfc6385190b60/Runtime/Network/NetworkManager.cpp Line: 2484)
-
-Incoming host list query response from master server.
- 
-(Filename: C:/BuildAgent/work/d63dfc6385190b60/Runtime/Network/NetworkManager.cpp Line: 2484)
-
-Incoming host list query response from master server.
- 
-(Filename: C:/BuildAgent/work/d63dfc6385190b60/Runtime/Network/NetworkManager.cpp Line: 2484)
-
-Incoming host list query response from master server.
- 
-(Filename: C:/BuildAgent/work/d63dfc6385190b60/Runtime/Network/NetworkManager.cpp Line: 2484)
-
-Incoming host list query response from master server.
- 
-(Filename: C:/BuildAgent/work/d63dfc6385190b60/Runtime/Network/NetworkManager.cpp Line: 2484)
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
 
 
 
-Avg frame time: 16.7ms, 60 fps 
+Avg frame time: 1ms, 974.2 fps 
 Total     MS/frame  Calls/fra MS/call   Label
 
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-CodeProfiler:Update() (at D:\Unity\Projects\MultiplayerRunner\Assets\Resources\Scripts\CodeProfiler.cs:109)
  
-(Filename: D Line: 0)
-
-Incoming host list query response from master server.
- 
-(Filename: C:/BuildAgent/work/d63dfc6385190b60/Runtime/Network/NetworkManager.cpp Line: 2484)
-
-Incoming host list query response from master server.
- 
-(Filename: C:/BuildAgent/work/d63dfc6385190b60/Runtime/Network/NetworkManager.cpp Line: 2484)
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
 
 
 
-Avg frame time: 16.7ms, 60 fps 
+Avg frame time: 1ms, 975.3 fps 
 Total     MS/frame  Calls/fra MS/call   Label
 
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-CodeProfiler:Update() (at D:\Unity\Projects\MultiplayerRunner\Assets\Resources\Scripts\CodeProfiler.cs:109)
  
-(Filename: D Line: 0)
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
 
-Waiting for finish
+
+
+Avg frame time: 1ms, 970.4 fps 
+Total     MS/frame  Calls/fra MS/call   Label
+
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+
+
+Avg frame time: 1ms, 966.3 fps 
+Total     MS/frame  Calls/fra MS/call   Label
+
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+
+
+Avg frame time: 1ms, 965.4 fps 
+Total     MS/frame  Calls/fra MS/call   Label
+
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+
+
+Avg frame time: 1ms, 963.4 fps 
+Total     MS/frame  Calls/fra MS/call   Label
+
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+
+
+Avg frame time: 1ms, 968.3 fps 
+Total     MS/frame  Calls/fra MS/call   Label
+
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+
+
+Avg frame time: 1ms, 967 fps 
+Total     MS/frame  Calls/fra MS/call   Label
+
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+
+
+Avg frame time: 1.2ms, 831 fps 
+Total     MS/frame  Calls/fra MS/call   Label
+
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Running as server. Player ID is 0.
+ 
+(Filename:  Line: 2484)
+
+Allocating view ID AllocatedID: 1.
+
+ 
+(Filename:  Line: 2484)
+
+Allocating view ID AllocatedID: 2.
+
+ 
+(Filename:  Line: 2484)
+
+Sent RPC call '__RPCNetworkInstantiate' to all connected clients
+
+ 
+(Filename:  Line: 2484)
+
+Added RPC '__RPCNetworkInstantiate' to buffer.
+ 
+(Filename:  Line: 2484)
+
+Server Initializied
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Attempting to connect to master server at 127.0.0.1:23466
+ 
+(Filename:  Line: 2484)
+
+
+
+Avg frame time: 2.3ms, 433 fps 
+Total     MS/frame  Calls/fra MS/call   Label
+0.011%    0.000ms   0.000     0.5684ms  CameraSmoothFollow:Start
+0.177%    0.004ms   0.082     0.0500ms  Player:FixedUpdate
+0.115%    0.003ms   0.082     0.0325ms  Player:PlayerMovement
+0.046%    0.001ms   0.082     0.0130ms  CameraSmoothFollow:FixedUpdate
+
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+The connection request to 67.225.180.24:50005 failed. Are you sure the server can be connected to?
+ 
+(Filename:  Line: 650)
+
+Failed to connect to master server at 127.0.0.1:23466
+ 
+(Filename:  Line: 231)
+
+
+
+Avg frame time: 3ms, 335 fps 
+Total     MS/frame  Calls/fra MS/call   Label
+0.000%    0.000ms   0.000     NaNms     CameraSmoothFollow:Start
+0.193%    0.006ms   0.149     0.0387ms  Player:FixedUpdate
+0.137%    0.004ms   0.149     0.0274ms  Player:PlayerMovement
+0.054%    0.002ms   0.149     0.0107ms  CameraSmoothFollow:FixedUpdate
+
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+
+
+Avg frame time: 3.2ms, 313.5 fps 
+Total     MS/frame  Calls/fra MS/call   Label
+0.000%    0.000ms   0.000     NaNms     CameraSmoothFollow:Start
+0.209%    0.007ms   0.159     0.0417ms  Player:FixedUpdate
+0.148%    0.005ms   0.159     0.0295ms  Player:PlayerMovement
+0.043%    0.001ms   0.159     0.0085ms  CameraSmoothFollow:FixedUpdate
+
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+
+
+Avg frame time: 2.6ms, 386.3 fps 
+Total     MS/frame  Calls/fra MS/call   Label
+0.000%    0.000ms   0.000     NaNms     CameraSmoothFollow:Start
+0.197%    0.005ms   0.129     0.0394ms  Player:FixedUpdate
+0.140%    0.004ms   0.129     0.0281ms  Player:PlayerMovement
+0.043%    0.001ms   0.129     0.0086ms  CameraSmoothFollow:FixedUpdate
+
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+

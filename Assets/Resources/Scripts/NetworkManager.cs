@@ -10,12 +10,11 @@ public class NetworkManager : MonoBehaviour {
 	private void StartServer()
 	{
 		Network.InitializeServer(4, 25000, !Network.HavePublicAddress());
-		MasterServer.ipAddress = "127.0.0.1:25000";
-		MasterServer.port = 25000;
-		Network.natFacilitatorIP = "127.0.0.1";
-		Network.natFacilitatorPort = 25000;
 		MasterServer.RegisterHost(typeName, gameName, "A MP runner");
 
+	}
+	void ConnectToServer() {
+		Network.Connect("127.0.0.1", 25000);
 	}
 	void OnServerInitialized()
 	{
