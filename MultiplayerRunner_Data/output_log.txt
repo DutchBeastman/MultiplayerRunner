@@ -10,24 +10,13 @@ Platform assembly: D:\Unity\Projects\MultiplayerRunner\MultiplayerRunner_Data\Ma
 Loading D:\Unity\Projects\MultiplayerRunner\MultiplayerRunner_Data\Managed\UnityEngine.dll into Unity Child Domain
 Platform assembly: D:\Unity\Projects\MultiplayerRunner\MultiplayerRunner_Data\Managed\Assembly-CSharp.dll (this message is harmless)
 Loading D:\Unity\Projects\MultiplayerRunner\MultiplayerRunner_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
-- Completed reload, in  0.053 seconds
+- Completed reload, in  0.056 seconds
 desktop: 1920x1080 60Hz; virtual: 3840x1080 at -1920,0
 <RI> Initializing input.
 <RI> Input initialized.
 Profiler is only supported with Pro License
  
 (Filename: C:/BuildAgent/work/d63dfc6385190b60/Runtime/Profiler/ProfilerConnection.cpp Line: 218)
-
-
-
-Avg frame time: 16.6ms, 60.4 fps 
-Total     MS/frame  Calls/fra MS/call   Label
-
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-CodeProfiler:Update() (at D:\Unity\Projects\MultiplayerRunner\Assets\Resources\Scripts\CodeProfiler.cs:109)
- 
-(Filename: D Line: 0)
 
 Connected to master server at 67.225.180.24:23466
  
@@ -69,13 +58,9 @@ Incoming host list query response from master server.
  
 (Filename: C:/BuildAgent/work/d63dfc6385190b60/Runtime/Network/NetworkManager.cpp Line: 2484)
 
-Incoming host list query response from master server.
- 
-(Filename: C:/BuildAgent/work/d63dfc6385190b60/Runtime/Network/NetworkManager.cpp Line: 2484)
 
 
-
-Avg frame time: 16.7ms, 60 fps 
+Avg frame time: 16.9ms, 59 fps 
 Total     MS/frame  Calls/fra MS/call   Label
 
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
@@ -112,6 +97,17 @@ Incoming host list query response from master server.
  
 (Filename: C:/BuildAgent/work/d63dfc6385190b60/Runtime/Network/NetworkManager.cpp Line: 2484)
 
+
+
+Avg frame time: 16.7ms, 60 fps 
+Total     MS/frame  Calls/fra MS/call   Label
+
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+CodeProfiler:Update() (at D:\Unity\Projects\MultiplayerRunner\Assets\Resources\Scripts\CodeProfiler.cs:109)
+ 
+(Filename: D Line: 0)
+
 Incoming host list query response from master server.
  
 (Filename: C:/BuildAgent/work/d63dfc6385190b60/Runtime/Network/NetworkManager.cpp Line: 2484)
@@ -131,212 +127,4 @@ CodeProfiler:Update() (at D:\Unity\Projects\MultiplayerRunner\Assets\Resources\S
  
 (Filename: D Line: 0)
 
-
-
-Avg frame time: 16.7ms, 60 fps 
-Total     MS/frame  Calls/fra MS/call   Label
-
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-CodeProfiler:Update() (at D:\Unity\Projects\MultiplayerRunner\Assets\Resources\Scripts\CodeProfiler.cs:109)
- 
-(Filename: D Line: 0)
-
-
-
-Avg frame time: 16.7ms, 60 fps 
-Total     MS/frame  Calls/fra MS/call   Label
-
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-CodeProfiler:Update() (at D:\Unity\Projects\MultiplayerRunner\Assets\Resources\Scripts\CodeProfiler.cs:109)
- 
-(Filename: D Line: 0)
-
-
-
-Avg frame time: 16.7ms, 60 fps 
-Total     MS/frame  Calls/fra MS/call   Label
-
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-CodeProfiler:Update() (at D:\Unity\Projects\MultiplayerRunner\Assets\Resources\Scripts\CodeProfiler.cs:109)
- 
-(Filename: D Line: 0)
-
-
-
-Avg frame time: 16.7ms, 59.8 fps 
-Total     MS/frame  Calls/fra MS/call   Label
-
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-CodeProfiler:Update() (at D:\Unity\Projects\MultiplayerRunner\Assets\Resources\Scripts\CodeProfiler.cs:109)
- 
-(Filename: D Line: 0)
-
-
-
-Avg frame time: 16.7ms, 60 fps 
-Total     MS/frame  Calls/fra MS/call   Label
-
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-CodeProfiler:Update() (at D:\Unity\Projects\MultiplayerRunner\Assets\Resources\Scripts\CodeProfiler.cs:109)
- 
-(Filename: D Line: 0)
-
-
-
-Avg frame time: 16.7ms, 60 fps 
-Total     MS/frame  Calls/fra MS/call   Label
-
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-CodeProfiler:Update() (at D:\Unity\Projects\MultiplayerRunner\Assets\Resources\Scripts\CodeProfiler.cs:109)
- 
-(Filename: D Line: 0)
-
-
-
-Avg frame time: 16.7ms, 60 fps 
-Total     MS/frame  Calls/fra MS/call   Label
-
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-CodeProfiler:Update() (at D:\Unity\Projects\MultiplayerRunner\Assets\Resources\Scripts\CodeProfiler.cs:109)
- 
-(Filename: D Line: 0)
-
-
-
-Avg frame time: 16.7ms, 60 fps 
-Total     MS/frame  Calls/fra MS/call   Label
-
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-CodeProfiler:Update() (at D:\Unity\Projects\MultiplayerRunner\Assets\Resources\Scripts\CodeProfiler.cs:109)
- 
-(Filename: D Line: 0)
-
-
-
-Avg frame time: 16.7ms, 60 fps 
-Total     MS/frame  Calls/fra MS/call   Label
-
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-CodeProfiler:Update() (at D:\Unity\Projects\MultiplayerRunner\Assets\Resources\Scripts\CodeProfiler.cs:109)
- 
-(Filename: D Line: 0)
-
-
-
-Avg frame time: 16.7ms, 60 fps 
-Total     MS/frame  Calls/fra MS/call   Label
-
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-CodeProfiler:Update() (at D:\Unity\Projects\MultiplayerRunner\Assets\Resources\Scripts\CodeProfiler.cs:109)
- 
-(Filename: D Line: 0)
-
-
-
-Avg frame time: 16.7ms, 60 fps 
-Total     MS/frame  Calls/fra MS/call   Label
-
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-CodeProfiler:Update() (at D:\Unity\Projects\MultiplayerRunner\Assets\Resources\Scripts\CodeProfiler.cs:109)
- 
-(Filename: D Line: 0)
-
-
-
-Avg frame time: 16.7ms, 60 fps 
-Total     MS/frame  Calls/fra MS/call   Label
-
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-CodeProfiler:Update() (at D:\Unity\Projects\MultiplayerRunner\Assets\Resources\Scripts\CodeProfiler.cs:109)
- 
-(Filename: D Line: 0)
-
-
-
-Avg frame time: 16.7ms, 60 fps 
-Total     MS/frame  Calls/fra MS/call   Label
-
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-CodeProfiler:Update() (at D:\Unity\Projects\MultiplayerRunner\Assets\Resources\Scripts\CodeProfiler.cs:109)
- 
-(Filename: D Line: 0)
-
-
-
-Avg frame time: 16.7ms, 60 fps 
-Total     MS/frame  Calls/fra MS/call   Label
-
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-CodeProfiler:Update() (at D:\Unity\Projects\MultiplayerRunner\Assets\Resources\Scripts\CodeProfiler.cs:109)
- 
-(Filename: D Line: 0)
-
-
-
-Avg frame time: 16.7ms, 60 fps 
-Total     MS/frame  Calls/fra MS/call   Label
-
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-CodeProfiler:Update() (at D:\Unity\Projects\MultiplayerRunner\Assets\Resources\Scripts\CodeProfiler.cs:109)
- 
-(Filename: D Line: 0)
-
-
-
-Avg frame time: 16.7ms, 60 fps 
-Total     MS/frame  Calls/fra MS/call   Label
-
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-CodeProfiler:Update() (at D:\Unity\Projects\MultiplayerRunner\Assets\Resources\Scripts\CodeProfiler.cs:109)
- 
-(Filename: D Line: 0)
-
-
-
-Avg frame time: 16.7ms, 60 fps 
-Total     MS/frame  Calls/fra MS/call   Label
-
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-CodeProfiler:Update() (at D:\Unity\Projects\MultiplayerRunner\Assets\Resources\Scripts\CodeProfiler.cs:109)
- 
-(Filename: D Line: 0)
-
-
-
-Avg frame time: 16.7ms, 60 fps 
-Total     MS/frame  Calls/fra MS/call   Label
-
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-CodeProfiler:Update() (at D:\Unity\Projects\MultiplayerRunner\Assets\Resources\Scripts\CodeProfiler.cs:109)
- 
-(Filename: D Line: 0)
-
-
-
-Avg frame time: 16.7ms, 60 fps 
-Total     MS/frame  Calls/fra MS/call   Label
-
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-CodeProfiler:Update() (at D:\Unity\Projects\MultiplayerRunner\Assets\Resources\Scripts\CodeProfiler.cs:109)
- 
-(Filename: D Line: 0)
-
+Waiting for finish
