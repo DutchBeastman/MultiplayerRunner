@@ -1,0 +1,55 @@
+
+skeleton.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+arm
+  rotate: false
+  xy: 866, 128
+  size: 136, 113
+  orig: 136, 113
+  offset: 0, 0
+  index: -1
+body
+  rotate: true
+  xy: 2, 84
+  size: 157, 280
+  orig: 157, 280
+  offset: 0, 0
+  index: -1
+boven_been
+  rotate: false
+  xy: 437, 64
+  size: 141, 177
+  orig: 141, 177
+  offset: 0, 0
+  index: -1
+hoofd
+  rotate: false
+  xy: 284, 57
+  size: 151, 184
+  orig: 151, 184
+  offset: 0, 0
+  index: -1
+onder_been
+  rotate: false
+  xy: 580, 64
+  size: 141, 177
+  orig: 141, 177
+  offset: 0, 0
+  index: -1
+vleugel
+  rotate: false
+  xy: 2, 2
+  size: 142, 80
+  orig: 142, 80
+  offset: 0, 0
+  index: -1
+voet
+  rotate: false
+  xy: 723, 64
+  size: 141, 177
+  orig: 141, 177
+  offset: 0, 0
+  index: -1
