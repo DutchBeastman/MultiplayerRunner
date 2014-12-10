@@ -26,7 +26,7 @@ public class CodeProfiler:MonoBehaviour
 	int numFrames = 0;
 	static Dictionary<string, ProfilerRecording> recordings = new Dictionary<string, ProfilerRecording>();
 	string displayText;
-	Rect displayRect = new Rect(10,10,460,300);
+	Rect displayRect = new Rect(400,10,460,300);
 	
 	void Awake() {
 		startTime = Time.time;  
@@ -34,6 +34,7 @@ public class CodeProfiler:MonoBehaviour
 	}
 	
 	void OnGUI() {
+		GUI.matrix = Matrix4x4.TRS(Vector3.zero, Quaternion.identity, new Vector3((float)(Screen.width) / (1024f) , (float)(Screen.height) / (720f), 1));
 		GUI.Box(displayRect,"Code Profiler");
 		GUI.Label(displayRect, displayText);
 	}

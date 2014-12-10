@@ -2,11 +2,14 @@
 using System.Collections;
 
 public class NetworkManager : MonoBehaviour {
-
+	private Rect ipBox = new Rect(0,Screen.height / 1.5f,Screen.width , Screen.height);
+	public Texture ipTexture;
+	public string stringToEdit = "Hello World";
 	private const string typeName = "Fabian'sRunnerGameName";
 	private const string gameName = "Fabian'sRunnerGame";
 	private HostData[] hostList;
-	
+	public Vector2 guiScreen = new Vector2(100,100);
+
 	private void StartServer()
 	{
 		Network.InitializeServer(4, 25000, !Network.HavePublicAddress());
@@ -14,7 +17,7 @@ public class NetworkManager : MonoBehaviour {
 
 	}
 	void ConnectToServer() {
-		Network.Connect("127.0.0.1", 25000);
+		Network.Connect(stringToEdit, 25000);
 	}
 	void OnServerInitialized()
 	{
@@ -22,6 +25,7 @@ public class NetworkManager : MonoBehaviour {
 		SpawnPlayer();
 		Debug.Log("Server Initializied");
 	}
+
 
 	
 	private void RefreshHostList()
@@ -43,7 +47,7 @@ public class NetworkManager : MonoBehaviour {
 	void OnConnectedToServer()
 	{
 		SpawnPlayer();
-		Debug.Log("Server Joined");
+
 	}
 	private void SpawnPlayer()
 	{
@@ -51,14 +55,22 @@ public class NetworkManager : MonoBehaviour {
 	}
 	void OnGUI()
 	{
-		if (!Network.isClient && !Network.isServer)
+		CodeProfiler.Begin("NetworkManager:OnGui");
+		GUI.matrix = Matrix4x4.TRS(Vector3.zero, Quaternion.identity, new Vector3((float)(Screen.width) / (1024f) , (float)(Screen.height) / (720f), 1));		if (!Network.isClient && !Network.isServer)
 		{
-			if (GUI.Button(new Rect(100, 100, 250, 100), "Start Server"))
+
+			if (GUI.Button(new Rect(guiScreen.x, guiScreen.y , guiScreen.x,guiScreen.y), "Start Server")){
 				StartServer();
+			}
 			
-			if (GUI.Button(new Rect(100, 250, 250, 100), "Refresh Hosts"))
+			if (GUI.Button(new Rect(guiScreen.x, guiScreen.y * 2,  guiScreen.x,guiScreen.y), "Refresh Hosts")){
 				RefreshHostList();
-			
+			}
+
+			if(GUI.Button(new Rect(guiScreen.x, guiScreen.y * 3 , guiScreen.x,guiScreen.y), "Connect")){
+				ConnectToServer();
+			}
+			stringToEdit = GUI.TextField(new Rect(guiScreen.x, guiScreen.y * 4,  guiScreen.x,guiScreen.y), stringToEdit, 25);
 			if (hostList != null)
 			{
 				for (int i = 0; i < hostList.Length; i++)
@@ -68,5 +80,6 @@ public class NetworkManager : MonoBehaviour {
 				}
 			}
 		}
+		CodeProfiler.End("NetworkManager:OnGui");
 	}
 }
